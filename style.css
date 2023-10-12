@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+}
+
+/* ***************************index CSS************************************ */
+#home {
+  display: flex;
+  width: 88%;
+  flex-direction: column;
+  align-items: end;
+  border-bottom-right-radius: 40px;
+  background-color: #ececec;
+  padding-right: 43px;
+  margin-left: 70px;
+}
+
+#body {
+  display: flex;
+  width: 88%;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 43px;
+  margin-top: 30px;
+}
+
+#para {
+  width: 50%;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: #888888;
+  font-weight: 700px;
+  line-height: 35.2px;
+}
+
+.ft {
+  margin-top: 130px;
+  font-weight: bold;
+  font-size: 19px;
+}
+.footer {
+  height: 250px;
+  margin-top: 100px;
+  padding-top: 25px;
+  background-color: #efefef;
+}
+.footer h2 {
+  color: #0d2123;
+  font-weight: lighter;
+}
+
+/* ***************************form CSS************************************ */
+
+#form {
+  /* border: 2px solid red; */
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: flex-end;
+  /* padding-right: 43px; */
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#form .lbl {
+  font-size: 20px;
+  padding-left: 534px;
+  font-weight: bold;
+}
+
+.input {
+  display: flex;
+  font-size: 20px;
+  width: 600px;
+  height: 50px;
+  text-align: end;
+  margin: 15px 0px;
+  outline: none;
+}
+.val {
+  background-color: rgb(5, 0, 43);
+  color: white;
+}
+
+/* ***************************bank CSS************************************ */
+
+.images {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100%;
+}
+
+/* ****************Utility Classes CSS*************** */
+
+.h-2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #f77100;
+}
+.h-secondary {
+  color: RGB(117, 117, 117);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.btn {
+  color: white;
+  background-color: #f77100;
+  width: 55%;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #a3dd9e;
+}
+
+.center {
+  text-align: center;
+}
